@@ -37,3 +37,9 @@ Compile and link all `.cpp` files using the following commands to generate the e
 **Using g++:**
 ```bash
 g++ -std=c++17 main.cpp Vec3D.cpp Particle.cpp OdeFunctions.cpp IAS15Integrator.cpp OrbitalElements.cpp -o trinity_sim
+```
+
+**Using MacOS:**
+```bash
+clang++ -std=c++17 main.cpp Vec3D.cpp Particle.cpp OdeFunctions.cpp IAS15Integrator.cpp OrbitalElements.cpp -o trinity_sim
+```
